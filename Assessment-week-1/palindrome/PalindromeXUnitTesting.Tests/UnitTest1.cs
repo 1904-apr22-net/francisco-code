@@ -11,9 +11,7 @@ namespace PalindromeXUnitTesting.Tests
         //[InlineData(null)] // duplicating the above test
         [InlineData("racecaR")]
         [InlineData("1221")]
-        /*[InlineData("never odd, or even")]
-        [InlineData("one two one")]
-        [InlineData("123abccba123")]*/
+        
         public void checkIfPalindromeTrue(string inputWord)
         {
             //arrange
@@ -25,6 +23,22 @@ namespace PalindromeXUnitTesting.Tests
 
             //assert
             Assert.True(result);
+        }
+        [Theory]
+        [InlineData("never odd, or even")]
+        [InlineData("one two one")]
+        [InlineData("123abccba123")]
+        public void checkIfPalindromeFalse(string inputWord)
+        {
+            //arrange
+            Palindrome pal = new Palindrome();
+            pal.Word = inputWord;
+
+            //act
+            bool result = pal.IsPalindrome();
+
+            //assert
+            Assert.False(result);
         }
     }
 }

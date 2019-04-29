@@ -15,7 +15,8 @@ namespace palindrome.library
 
         public bool IsPalindrome()
         {
-            return word.SequenceEqual(word.Reverse());
+            Word.ToUpper();
+            return Word.SequenceEqual(Word.Reverse());
         }
 
     }
