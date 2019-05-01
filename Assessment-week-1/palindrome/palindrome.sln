@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "palindrome.library", "palindrome.library\palindrome.library.csproj", "{BD601C62-D759-4EB9-A823-C0B8824A7E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "palindrome.library", "palindrome.library\palindrome.library.csproj", "{BD601C62-D759-4EB9-A823-C0B8824A7E54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeXUnitTesting.Tests", "PalindromeXUnitTesting.Tests\PalindromeXUnitTesting.Tests.csproj", "{23C25920-6092-42A7-B0B8-D6713AC757A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeXUnitTesting.Tests", "PalindromeXUnitTesting.Tests\PalindromeXUnitTesting.Tests.csproj", "{23C25920-6092-42A7-B0B8-D6713AC757A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeTestApp", "PalindromeTestApp\PalindromeTestApp.csproj", "{2E12592D-99B2-403F-9536-7318A1B0147A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{23C25920-6092-42A7-B0B8-D6713AC757A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23C25920-6092-42A7-B0B8-D6713AC757A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23C25920-6092-42A7-B0B8-D6713AC757A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E12592D-99B2-403F-9536-7318A1B0147A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E12592D-99B2-403F-9536-7318A1B0147A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E12592D-99B2-403F-9536-7318A1B0147A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E12592D-99B2-403F-9536-7318A1B0147A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

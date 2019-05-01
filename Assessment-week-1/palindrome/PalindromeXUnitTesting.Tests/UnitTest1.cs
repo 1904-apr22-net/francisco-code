@@ -23,6 +23,7 @@ namespace PalindromeXUnitTesting.Tests
 
             //assert
             Assert.True(result);
+            
         }
         [Theory]
         [InlineData("never odd, or even")]
