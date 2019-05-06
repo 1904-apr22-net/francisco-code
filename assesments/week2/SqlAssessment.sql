@@ -88,4 +88,4 @@ values(
 ),
 (3,3);
 
-select first_name, order_id from customers, orders where customers.customer_id=orders.customer_id;
+select first_name, order_id from customers, orders where customers.customer_id=1 and orders.customer_id=1;
