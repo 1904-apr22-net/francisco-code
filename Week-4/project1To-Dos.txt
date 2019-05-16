@@ -1,0 +1,10 @@
+bugs: unable to place an order using the web ui
+
+missing:no client side validation/ very little server side
+	unable to add/delete customers/locations/ etc
+missing: being able to sort orders by cost, earliest, latest
+missing:being able to display statistics based on order history
+missing:logging
+missing: being able to place more than one order from same location in 2 hours
+missing:location rejects orders that can't be fulfilled, inventory doesn't decrease
+missing:custom css
